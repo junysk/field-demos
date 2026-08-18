@@ -1,34 +1,76 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Atlas Plumbing &amp; Heating Co — HVAC / plumbing in Dallas, TX</title>
-<meta name="robots" content="noindex"><meta name="color-scheme" content="light">
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Atlas Plumbing &amp; Heating Co — HVAC / plumbing · Harry Hines / Royal Ln</title>
+<meta name="robots" content="noindex"><meta name="color-scheme" content="light"><meta name="theme-color" content="#0c4a6e">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&family=Manrope:wght@400;600;800&display=swap" rel="stylesheet">
 <style>
-html{background:#fff}
-:root{--ink:#111;--muted:#666;--bg:#fff;--brand:#0b5d4a;--brand-ink:#fff}
-*{box-sizing:border-box}body{margin:0;font:16px/1.5 -apple-system,Segoe UI,Roboto,sans-serif;color:var(--ink);background:var(--bg)}
-.demo{background:#fff3cd;color:#664d03;font-size:12px;text-align:center;padding:6px}
-header{background:var(--brand);color:var(--brand-ink);padding:28px 20px 24px}
-header h1{margin:0 0 4px;font-size:28px;line-height:1.15}header p{margin:0;opacity:.9}
-.hero-img{width:100%;max-height:260px;object-fit:cover;display:block}
-.cta{display:block;text-align:center;background:#111;color:#fff;font-weight:700;font-size:18px;padding:16px;margin:16px 20px 0;border-radius:12px;text-decoration:none}
-.cta.alt{background:#fff;color:#111;border:2px solid #111}
-section{padding:18px 20px}h2{font-size:18px;margin:0 0 8px}ul{margin:0;padding-left:18px}
-.grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
-.card{border:1px solid #e5e5e5;border-radius:12px;padding:14px}
-.rating{font-size:15px}.rating a{color:var(--ink)}
-footer{padding:20px;color:var(--muted);font-size:13px;border-top:1px solid #eee}
-@media(min-width:720px){main{max-width:720px;margin:0 auto}}
-</style></head><body>
-<div class="demo">Demo preview built for Atlas Plumbing &amp; Heating Co — not live · ask us to switch it on</div>
-<main>
+:root{--brand:#0c4a6e;--brand2:#22c55e;--ink:#0f172a;--paper:#f8fafc;--muted:#6b7280;--line:#e5e7eb}
+*{box-sizing:border-box}html{background:var(--paper);scroll-behavior:smooth}
+body{margin:0;font:16px/1.55 'Manrope',system-ui,-apple-system,sans-serif;color:var(--ink);background:var(--paper);padding-bottom:84px}
+h1,h2,.display{font-family:'Manrope',Georgia,serif;letter-spacing:-.01em;line-height:1.05;margin:0}
+a{color:inherit}
+.preview{background:#111;color:#fbbf24;font-size:12px;text-align:center;padding:6px 10px;letter-spacing:.02em}
+.wrap{max-width:860px;margin:0 auto;padding:0 20px}
+nav{display:flex;align-items:center;justify-content:space-between;padding:14px 0}
+nav .logo{font-family:'Manrope',serif;font-weight:700;font-size:20px}
+nav .lang{border:1px solid var(--line);background:#fff;border-radius:999px;padding:6px 12px;font:600 13px 'Manrope',sans-serif;cursor:pointer}
+.hero{position:relative;background:var(--brand);color:#fff;border-radius:22px;padding:44px 26px 34px;overflow:hidden;background-size:cover;background-position:center}
+.hero:before{content:"";position:absolute;inset:auto -20% -60% auto;width:70%;aspect-ratio:1;border-radius:50%;background:radial-gradient(circle at 30% 30%,var(--brand2),transparent 60%);opacity:.55;pointer-events:none}
+.hero .kicker{font-size:13px;letter-spacing:.14em;text-transform:uppercase;opacity:.85;margin-bottom:10px}
+.hero h1{font-size:clamp(34px,7vw,58px);max-width:14ch}
+.hero .tag{font-size:clamp(17px,2.6vw,21px);margin:12px 0 18px;opacity:.95;max-width:38ch}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:22px}
+.chip{background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.28);backdrop-filter:blur(4px);border-radius:999px;padding:6px 12px;font-size:13px;font-weight:600}
+.btns{display:flex;flex-wrap:wrap;gap:10px;position:relative}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:14px 20px;border-radius:14px;font-weight:800;text-decoration:none;font-size:16px}
+.btn.primary{background:var(--brand2);color:#111}
+.btn.ghost{background:rgba(255,255,255,.12);color:#fff;border:1px solid rgba(255,255,255,.35)}
+section{padding:34px 0 6px}
+h2{font-size:clamp(24px,4vw,32px);margin-bottom:14px}
+.svcs{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:10px}
+.svc{background:#fff;border:1px solid var(--line);border-radius:14px;padding:16px;font-weight:600;display:flex;gap:12px;align-items:baseline}
+.svc .n{font-family:'Manrope',serif;color:var(--brand2);font-weight:700;font-size:20px;filter:saturate(1.2) brightness(.85)}
+.why{display:grid;grid-template-columns:1fr 1fr;gap:18px;align-items:start}
+.why ul{margin:0;padding:0;list-style:none;display:grid;gap:10px}
+.why li{padding-left:26px;position:relative;font-weight:600}
+.why li:before{content:"";position:absolute;left:0;top:.45em;width:14px;height:14px;border-radius:50%;background:var(--brand2)}
+.rate{background:var(--brand);color:#fff;border-radius:18px;padding:22px 24px;display:flex;gap:16px;align-items:center;flex-wrap:wrap}
+.rate .big{font-family:'Manrope',serif;font-size:44px;font-weight:700;line-height:1}
+.rate a{color:#fff;font-weight:700}
+.info{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.card{background:#fff;border:1px solid var(--line);border-radius:16px;padding:18px}
+.card h3{margin:0 0 8px;font-size:14px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.card ul{margin:0;padding-left:18px}
+footer{padding:26px 0 10px;color:var(--muted);font-size:13px}
+.bar{position:fixed;left:0;right:0;bottom:0;background:#fff;border-top:1px solid var(--line);display:flex;gap:8px;padding:10px 12px calc(10px + env(safe-area-inset-bottom));z-index:9}
+.bar a{flex:1;text-align:center;padding:12px 8px;border-radius:12px;font-weight:800;text-decoration:none;font-size:15px;border:1px solid var(--line);color:var(--ink);background:#fff}
+.bar a.call{background:var(--brand);color:#fff;border-color:var(--brand)}
+@media(max-width:640px){.why,.info{grid-template-columns:1fr}.hero{border-radius:18px;padding:36px 20px 28px}}
+[data-lang="es"] .en{display:none}[data-lang="en"] .es{display:none}
+</style></head><body data-lang="en">
+<div class="preview">Preview built for Atlas Plumbing &amp; Heating Co — not live yet · pregunte y lo activamos</div>
+<div class="wrap">
+<nav><span class="logo">Atlas Plumbing &amp; Heating Co</span><button class="lang" onclick="toggleLang()"><span class="en">Español</span><span class="es">English</span></button></nav>
+<header class="hero" >
+  <div class="kicker">HVAC / plumbing · Harry Hines / Royal Ln</div>
+  <h1>Atlas Plumbing &amp; Heating Co</h1>
+  <p class="tag"><span class="en">Dallas plumbing &amp; heating, done right the first time.</span><span class="es">Plomería y calefacción en Dallas, bien hecha a la primera.</span></p>
+  <div class="chips"><span class="chip">★ 4.5 · 210 Google reviews</span><span class="chip">20+ years</span><span class="chip">Family-owned</span><span class="chip">Se habla español</span></div>
+  <div class="btns"><a class="btn primary" href="tel:9722438051">📞 <span class="en">Call now — same day</span><span class="es">Llame ahora — el mismo día</span></a><a class="btn ghost" href="sms:9722438051">💬 <span class="en">Text us</span><span class="es">Envíanos un texto</span></a></div>
+</header>
 
-<header><h1>Atlas Plumbing &amp; Heating Co</h1><p>HVAC / plumbing · Harry Hines / Royal Ln</p></header>
-<a class="cta" href="tel:9722438051">📞 Call now — same day · (972) 243-8051</a>
-<a class="cta alt" href="sms:9722438051">💬 Text us — we reply fast</a>
-<section><h2>What we do</h2><ul><li>Emergency service</li><li>Water heaters</li><li>Drain cleaning</li><li>A/C repair</li><li>Leak repair</li></ul></section>
-<section class="grid">
-  <div class="card"><h2>Hours</h2><ul><li>Mon–Fri 8 AM–5 PM (as listed)</li></ul></div>
-  <div class="card"><h2>Find us</h2><p>11311 Harry Hines Blvd Ste 505, Dallas, TX 75229</p><a href="https://www.google.com/maps/search/?api=1&query=Atlas%20Plumbing%20%26%20Heating%20Co%2011311%20Harry%20Hines%20Blvd%20Ste%20505%2C%20Dallas%2C%20TX%2075229">Directions →</a></div>
-</section>
-<section class="rating">★ 4.5 on Google (210 reviews) · <a href="https://www.google.com/maps/search/?api=1&query=Atlas%20Plumbing%20%26%20Heating%20Co%2011311%20Harry%20Hines%20Blvd%20Ste%20505%2C%20Dallas%2C%20TX%2075229">read reviews</a></section>
-<footer>© 2026 Atlas Plumbing &amp; Heating Co · 11311 Harry Hines Blvd Ste 505, Dallas, TX 75229 · (972) 243-8051<br><small>Preview only. Content from public listing details; photos and copy to be replaced with the owner's.</small></footer>
-</main></body></html>
+<section><h2><span class="en">What we do</span><span class="es">Servicios</span></h2><div class="svcs"><div class="svc"><span class="n">01</span><span data-en="Emergency service" data-es="Emergencias">Emergency service</span></div><div class="svc"><span class="n">02</span><span data-en="Water heaters" data-es="Calentadores de agua">Water heaters</span></div><div class="svc"><span class="n">03</span><span data-en="Drain cleaning" data-es="Destape de drenajes">Drain cleaning</span></div><div class="svc"><span class="n">04</span><span data-en="Heating repair" data-es="Heating repair">Heating repair</span></div><div class="svc"><span class="n">05</span><span data-en="Leak repair" data-es="Reparación de fugas">Leak repair</span></div></div></section>
+
+<section><div class="why"><div><h2><span class="en">Why neighbors choose us</span><span class="es">Por qué nos eligen</span></h2><ul><li data-en="210+ Google reviews from your neighbors" data-es="Más de 210 reseñas en Google">210+ Google reviews from your neighbors</li><li data-en="Licensed, insured, straightforward pricing" data-es="Con licencia y precios claros">Licensed, insured, straightforward pricing</li><li data-en="Emergencies answered — day or night" data-es="Atendemos emergencias — día y noche">Emergencies answered — day or night</li></ul></div>
+<div class="rate"><div class="big">4.5★</div><div><div><span class="en">210 reviews on Google</span><span class="es">210 reseñas en Google</span></div><a href="https://www.google.com/maps/search/?api=1&query=Atlas%20Plumbing%20%26%20Heating%20Co%2011311%20Harry%20Hines%20Blvd%20Ste%20505%2C%20Dallas%2C%20TX%2075229"><span class="en">Read them →</span><span class="es">Léelas →</span></a></div></div></div></section>
+
+<section><div class="info">
+  <div class="card"><h3><span class="en">Hours</span><span class="es">Horario</span></h3><ul><li>Mon–Fri 8 AM–5 PM (as listed)</li></ul></div>
+  <div class="card"><h3><span class="en">Find us</span><span class="es">Ubicación</span></h3><p style="margin:0 0 8px">11311 Harry Hines Blvd Ste 505, Dallas, TX 75229</p><a href="https://www.google.com/maps/search/?api=1&query=Atlas%20Plumbing%20%26%20Heating%20Co%2011311%20Harry%20Hines%20Blvd%20Ste%20505%2C%20Dallas%2C%20TX%2075229" style="font-weight:700"><span class="en">Directions →</span><span class="es">Cómo llegar →</span></a><p style="margin:8px 0 0"><a href="tel:9722438051" style="font-weight:700">(972) 243-8051</a></p></div>
+</div></section>
+
+<footer>© 2026 Atlas Plumbing &amp; Heating Co · 11311 Harry Hines Blvd Ste 505, Dallas, TX 75229<br><small>Preview. Built from public listing details; photos and copy to be replaced with the owner's own.</small></footer>
+</div>
+<div class="bar"><a class="call" href="tel:9722438051">📞 <span class="en">Call</span><span class="es">Llamar</span></a><a href="sms:9722438051">💬 <span class="en">Text</span><span class="es">Texto</span></a><a href="https://www.google.com/maps/search/?api=1&query=Atlas%20Plumbing%20%26%20Heating%20Co%2011311%20Harry%20Hines%20Blvd%20Ste%20505%2C%20Dallas%2C%20TX%2075229">📍 <span class="en">Directions</span><span class="es">Ubicación</span></a></div>
+<script>function toggleLang(){var b=document.body;b.dataset.lang=b.dataset.lang==='en'?'es':'en';document.querySelectorAll('[data-en]').forEach(function(e){e.textContent=b.dataset.lang==='es'?e.dataset.es:e.dataset.en})}</script>
+</body></html>
