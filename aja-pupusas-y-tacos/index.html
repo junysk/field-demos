@@ -1,186 +1,218 @@
 <!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>AJA Pupusas y Tacos — Pupusas, tacos y comida casera · Harry Hines, Dallas</title>
-<meta name="description" content="Pupusas hechas a mano, tacos al pastor, sopas de la semana y aguas frescas. 10941 Harry Hines Blvd, Dallas. Llama al (469) 684-2551.">
-<meta name="robots" content="noindex"><meta name="color-scheme" content="light"><meta name="theme-color" content="#b3121a">
+<title>AJA Pupusas y Tacos · Harry Hines, Dallas</title>
+<meta name="description" content="Pupusas hechas a mano, tacos al pastor, sopa de pollo los martes, caldo de res los miércoles. 10941 Harry Hines Blvd, Dallas · (469) 684-2551">
+<meta name="robots" content="noindex"><meta name="color-scheme" content="light"><meta name="theme-color" content="#c8102e">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,800&family=Manrope:wght@400;600;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Nunito:wght@500;700;900&display=swap" rel="stylesheet">
 <style>
-:root{--red:#b3121a;--red-deep:#7a0b11;--yellow:#f6b21b;--cream:#fff7ea;--ink:#1a1210;--muted:#6b5f58;--line:#eadfce}
-*{box-sizing:border-box}html{background:var(--cream);scroll-behavior:smooth}
-body{margin:0;font:16px/1.55 Manrope,system-ui,-apple-system,sans-serif;color:var(--ink);background:var(--cream);padding-bottom:86px}
-h1,h2,h3,.disp{font-family:'Bricolage Grotesque',system-ui,sans-serif;font-weight:800;letter-spacing:-.02em;line-height:1;margin:0}
-a{color:inherit}
-.preview{background:#111;color:#f6b21b;font-size:12px;text-align:center;padding:6px 10px}
-.wrap{max-width:900px;margin:0 auto;padding:0 18px}
-nav{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:14px 0}
-nav .logo{display:flex;align-items:center;gap:10px;font-family:'Bricolage Grotesque';font-weight:800;font-size:20px}
-nav .logo i{width:34px;height:34px;border-radius:50%;background:var(--red);display:inline-grid;place-items:center;color:#fff;font-style:normal;font-size:15px}
-nav .lang{border:1px solid var(--line);background:#fff;border-radius:999px;padding:7px 12px;font:700 13px Manrope;cursor:pointer}
-.hero{position:relative;background:var(--red);color:#fff;border-radius:24px;overflow:hidden;min-height:420px;display:grid;align-items:end}
-.hero img.bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 30%}
-.hero .shade{position:absolute;inset:0;background:linear-gradient(180deg,rgba(122,11,17,.15) 0%,rgba(122,11,17,.55) 55%,rgba(60,4,8,.9) 100%)}
-.hero .in{position:relative;padding:34px 24px 26px}
-.kicker{display:inline-block;font-size:12px;letter-spacing:.16em;text-transform:uppercase;font-weight:800;color:var(--yellow);margin-bottom:10px}
-.hero h1{font-size:clamp(40px,9vw,72px);max-width:12ch}
-.hero .tag{font-size:clamp(17px,2.6vw,21px);margin:12px 0 16px;max-width:40ch;opacity:.95}
-.chips{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:18px}
-.chip{background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.3);border-radius:999px;padding:6px 12px;font-size:13px;font-weight:700}
-.chip.y{background:var(--yellow);color:#1a1210;border-color:var(--yellow)}
-.btns{display:flex;flex-wrap:wrap;gap:10px}
-.btn{display:inline-flex;align-items:center;gap:8px;padding:14px 20px;border-radius:14px;font-weight:800;text-decoration:none;font-size:16px}
-.btn.y{background:var(--yellow);color:#1a1210}.btn.g{background:rgba(255,255,255,.12);color:#fff;border:1px solid rgba(255,255,255,.35)}
-section{padding:36px 0 4px}
-h2{font-size:clamp(28px,5vw,40px);margin-bottom:6px}
-.sub{color:var(--muted);margin:0 0 16px;font-weight:600}
-.week{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px}
-.day{background:#fff;border:1px solid var(--line);border-radius:16px;padding:16px;position:relative;overflow:hidden}
-.day b{display:block;font-family:'Bricolage Grotesque';font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--red);margin-bottom:6px}
-.day .n{font-weight:800;font-size:18px}.day .p{color:var(--muted);font-size:14px}
-.day .price{position:absolute;right:14px;top:14px;font-family:'Bricolage Grotesque';font-weight:800;color:var(--red)}
-.tabs{display:flex;gap:8px;overflow-x:auto;padding:4px 0 10px;scrollbar-width:none;position:sticky;top:0;background:var(--cream);z-index:2}
-.tabs a{white-space:nowrap;text-decoration:none;font-weight:800;font-size:14px;padding:8px 14px;border-radius:999px;border:1px solid var(--line);background:#fff}
-.menu-sec{margin-top:22px}
-.menu-sec h3{font-size:22px;margin:0 0 4px;color:var(--red)}
-.menu-sec .note{color:var(--muted);font-size:14px;margin:0 0 10px}
-.items{display:grid;grid-template-columns:1fr;gap:0;background:#fff;border:1px solid var(--line);border-radius:18px;overflow:hidden}
-.item{display:grid;grid-template-columns:1fr auto;gap:12px;padding:14px 16px;border-bottom:1px solid var(--line)}
-.item:last-child{border-bottom:0}
-.item .nm{font-weight:800}.item .ds{color:var(--muted);font-size:14px;margin-top:2px}
-.item .pr{font-family:'Bricolage Grotesque';font-weight:800;color:var(--red);white-space:nowrap;font-size:17px}
-.item .pr small{display:block;font:600 12px Manrope;color:var(--muted);text-align:right}
-.combo{background:var(--red);color:#fff;border-radius:18px;padding:20px 22px;display:grid;grid-template-columns:1fr auto;gap:14px;align-items:center;margin-top:16px}
-.combo .disp{font-size:24px}.combo .pr{font-family:'Bricolage Grotesque';font-weight:800;font-size:34px;color:var(--yellow)}
-.gal{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
-.gal img{width:100%;aspect-ratio:1;object-fit:cover;border-radius:14px;background:#eee}
-.gal .wide{grid-column:span 2}
-.info{display:grid;grid-template-columns:1fr 1fr;gap:12px}
-.card{background:#fff;border:1px solid var(--line);border-radius:18px;padding:18px}
-.card h3{margin:0 0 8px;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
-.card ul{margin:0;padding-left:18px}
-.rate{background:#fff;border:1px solid var(--line);border-radius:18px;padding:18px 20px;display:flex;gap:16px;align-items:center}
-.rate .big{font-family:'Bricolage Grotesque';font-weight:800;font-size:44px;color:var(--red);line-height:1}
-footer{padding:26px 0 8px;color:var(--muted);font-size:13px}
-.bar{position:fixed;left:0;right:0;bottom:0;background:#fff;border-top:1px solid var(--line);display:flex;gap:8px;padding:10px 12px calc(10px + env(safe-area-inset-bottom));z-index:9}
-.bar a{flex:1;text-align:center;padding:12px 8px;border-radius:12px;font-weight:800;text-decoration:none;font-size:15px;border:1px solid var(--line);color:var(--ink);background:#fff}
-.bar a.call{background:var(--red);color:#fff;border-color:var(--red)}
+:root{--rojo:#c8102e;--rojo2:#9c0b22;--amarillo:#f5b400;--negro:#161311;--crema:#fff4e0;--crema2:#ffe9c4;--verde:#2f8f4e;--rosa:#d81b60;--cafe:#7b4b1f;--tinta:#1d1815;--gris:#6f625b}
+*{box-sizing:border-box}html{background:var(--crema)}
+body{margin:0;font:17px/1.5 Nunito,system-ui,sans-serif;color:var(--tinta);background:var(--crema);padding-bottom:84px;-webkit-font-smoothing:antialiased}
+h1,h2,h3,.disp{font-family:'Lilita One',Impact,sans-serif;font-weight:400;letter-spacing:.01em;line-height:.95;margin:0}
+a{color:inherit;text-decoration:none}
+.top{background:var(--negro);color:var(--amarillo);font:700 12px Nunito;text-align:center;padding:6px 10px}
+/* papel picado */
+.picado{display:block;width:100%;height:34px}
+.wrap{max-width:960px;margin:0 auto;padding:0 18px}
+header.hero{background:var(--rojo);color:#fff;position:relative;overflow:hidden}
+.hero .in{position:relative;padding:22px 18px 30px}
+.hero .bar{display:flex;justify-content:space-between;align-items:center;margin-bottom:26px}
+.hero .brand{display:flex;align-items:center;gap:10px;font-family:'Lilita One';font-size:22px}
+.hero .brand .dot{width:38px;height:38px;border-radius:50%;background:var(--amarillo);color:var(--rojo);display:grid;place-items:center;font-size:15px}
+.lang{background:transparent;color:#fff;border:2px solid rgba(255,255,255,.55);border-radius:999px;padding:6px 14px;font:900 13px Nunito;cursor:pointer}
+.hero h1{font-size:clamp(56px,13vw,124px);text-transform:uppercase;line-height:.86;text-shadow:0 4px 0 var(--rojo2)}
+.hero h1 span{display:block;color:var(--amarillo)}
+.hero p.lead{font-size:clamp(18px,2.6vw,23px);font-weight:700;max-width:34ch;margin:18px 0 22px}
+.hero .cta{display:inline-flex;align-items:center;gap:12px;white-space:nowrap;max-width:100%;background:var(--amarillo);color:var(--negro);border-radius:16px;padding:16px 22px;font:900 19px Nunito;box-shadow:0 6px 0 #b98700}
+.hero .cta small{display:block;font-weight:700;font-size:13px;opacity:.8;white-space:normal}
+@media(max-width:480px){.hero .cta{font-size:17px;padding:14px 16px}}
+.hero .sub{margin-top:14px;font-weight:700;opacity:.92}
+.hero img.foto{position:absolute;right:-6%;bottom:-8%;width:min(46vw,420px);border-radius:24px;transform:rotate(-4deg);border:6px solid #fff;box-shadow:0 20px 40px rgba(0,0,0,.35);object-fit:cover;aspect-ratio:4/5}
+@media(max-width:760px){.hero img.foto{position:static;width:100%;transform:none;margin-top:18px;aspect-ratio:16/10}}
+/* hoy */
+.hoy{background:var(--negro);color:#fff}
+.hoy .in{display:flex;flex-wrap:wrap;gap:8px 18px;align-items:center;padding:14px 18px}
+.hoy .tag{background:var(--amarillo);color:var(--negro);font-family:'Lilita One';font-size:14px;letter-spacing:.06em;padding:4px 10px;border-radius:6px;text-transform:uppercase}
+.hoy b{font-family:'Lilita One';font-size:22px;font-weight:400}
+.hoy .pr{margin-left:auto;font-family:'Lilita One';font-size:22px;color:var(--amarillo)}
+section{padding:40px 0 8px}
+h2{font-size:clamp(34px,6vw,54px);text-transform:uppercase;color:var(--rojo)}
+h2 + p{margin:6px 0 20px;font-weight:700;color:var(--gris)}
+/* pupusas */
+.pupusas{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px}
+.pup{background:#fff;border:3px solid var(--negro);border-radius:18px;padding:16px 14px;box-shadow:5px 5px 0 var(--negro);font-weight:900;font-size:17px;line-height:1.2}
+.pup small{display:block;font-weight:700;color:var(--gris);font-size:13px;margin-top:4px}
+.pricebar{display:flex;flex-wrap:wrap;gap:10px;margin-top:14px}
+.pricebar span{background:var(--amarillo);border-radius:999px;padding:8px 14px;font:900 15px Nunito}
+.pricebar span.combo{background:var(--rojo);color:#fff}
+/* week */
+.week{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px}
+.dia{background:#fff;border-radius:18px;padding:18px;border:2px solid var(--crema2)}
+.dia .d{font-family:'Lilita One';color:var(--rojo);text-transform:uppercase;letter-spacing:.06em;font-size:14px}
+.dia .n{font-family:'Lilita One';font-size:26px;margin:4px 0 2px}
+.dia .p{color:var(--gris);font-weight:700;font-size:14px}
+.dia .pr{font-family:'Lilita One';font-size:22px;margin-top:8px}
+/* menu board */
+.board{background:var(--negro);color:#fff;border-radius:22px;padding:22px 20px 10px;border:6px solid var(--rojo)}
+.board h3{font-size:26px;color:var(--amarillo);text-transform:uppercase;letter-spacing:.04em;margin:14px 0 8px;padding-bottom:6px;border-bottom:2px dashed rgba(255,255,255,.25)}
+.board h3:first-child{margin-top:0}
+.row{display:flex;align-items:baseline;gap:8px;padding:7px 0;font-weight:700}
+.row .nm{white-space:nowrap}
+.row .ds{font-weight:500;color:#cfc4b8;font-size:14px}
+.row .dots{flex:1;border-bottom:2px dotted rgba(255,255,255,.28);transform:translateY(-4px);min-width:16px}
+.row .pr{font-family:'Lilita One';color:var(--amarillo);font-size:19px;white-space:nowrap}
+.row .pr small{color:#cfc4b8;font:700 12px Nunito;margin-left:6px}
+.cols{display:grid;grid-template-columns:1fr 1fr;gap:0 34px}
+@media(max-width:700px){.cols{grid-template-columns:1fr}}
+/* aguas */
+.aguas{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px}
+.agua{border-radius:20px;padding:18px 16px;color:#fff;min-height:150px;display:flex;flex-direction:column;justify-content:flex-end;position:relative;overflow:hidden}
+.agua:before{content:"";position:absolute;inset:auto -30% -55% auto;width:75%;aspect-ratio:1;border-radius:50%;background:rgba(255,255,255,.18)}
+.agua .n{font-family:'Lilita One';font-size:26px;position:relative}
+.agua .p{font-weight:800;font-size:14px;opacity:.95;position:relative}
+.horchata{background:#c9a26b;color:#3d2a12}.jamaica{background:var(--rosa)}.limonada{background:var(--verde)}.tamarindo{background:var(--cafe)}
+/* visit */
+.visit{display:grid;grid-template-columns:1.2fr 1fr;gap:14px}
+@media(max-width:700px){.visit{grid-template-columns:1fr}}
+.card{background:#fff;border-radius:20px;padding:22px;border:2px solid var(--crema2)}
+.card h3{font-size:22px;color:var(--rojo);text-transform:uppercase;margin-bottom:8px}
+.card p{margin:0 0 6px;font-weight:700}
+.card .big{font-family:'Lilita One';font-size:30px;line-height:1.1;margin:8px 0}
+.gal{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:14px}
+.gal img{width:100%;aspect-ratio:1;object-fit:cover;border-radius:16px}
+.gal:empty{display:none}
+.stars{display:inline-flex;align-items:center;gap:8px;background:var(--crema2);border-radius:999px;padding:8px 14px;font-weight:900}
+footer{padding:28px 0 6px;color:var(--gris);font-size:13px;font-weight:700}
+.barra{position:fixed;left:0;right:0;bottom:0;background:#fff;border-top:2px solid var(--crema2);display:flex;gap:8px;padding:10px 12px calc(10px + env(safe-area-inset-bottom));z-index:9}
+.barra a{flex:1;text-align:center;padding:13px 8px;border-radius:14px;font:900 15px Nunito;border:2px solid var(--crema2);color:var(--tinta);background:#fff}
+.barra a.call{background:var(--rojo);color:#fff;border-color:var(--rojo)}
 [data-lang="es"] .en{display:none}[data-lang="en"] .es{display:none}
-@media(max-width:640px){.info{grid-template-columns:1fr}.hero{border-radius:18px;min-height:380px}.combo{grid-template-columns:1fr}}
 </style></head><body data-lang="es">
-<div class="preview">Vista previa para AJA Pupusas y Tacos — aún no publicada · Preview, not live yet</div>
-<div class="wrap">
-<nav><span class="logo"><i>AJA</i> AJA Pupusas y Tacos</span><button class="lang" onclick="toggleLang()"><span class="es">English</span><span class="en">Español</span></button></nav>
+<div class="top"><span class="es">Vista previa para AJA — todavía no está publicada</span><span class="en">Preview for AJA — not live yet</span></div>
 
 <header class="hero">
-  <img class="bg" src="img/hero.jpg" alt="" onerror="this.remove()">
-  <div class="shade"></div>
-  <div class="in">
-    <span class="kicker"><span class="es">Comida salvadoreña y mexicana · Harry Hines</span><span class="en">Salvadoran &amp; Mexican kitchen · Harry Hines</span></span>
-    <h1>AJA Pupusas y Tacos</h1>
-    <p class="tag"><span class="es">Pupusas hechas a mano, tacos al pastor y sopas de la semana — como en casa.</span><span class="en">Handmade pupusas, al pastor tacos and the soup of the day — like home.</span></p>
-    <div class="chips"><span class="chip y">★ 4.9 · 41 <span class="es">reseñas</span><span class="en">reviews</span> Google</span><span class="chip"><span class="es">Para llevar · Curbside · A domicilio</span><span class="en">Takeout · Curbside · Delivery</span></span><span class="chip"><span class="es">Tortillas hechas a mano</span><span class="en">Handmade tortillas</span></span></div>
-    <div class="btns"><a class="btn y" href="tel:+14696842551">📞 <span class="es">Llama para ordenar</span><span class="en">Call to order</span> · (469) 684-2551</a><a class="btn g" href="#menu"><span class="es">Ver el menú</span><span class="en">See the menu</span> ↓</a></div>
+  <svg class="picado" viewBox="0 0 1200 34" preserveAspectRatio="none" aria-hidden="true">
+    <defs><pattern id="pp" width="60" height="34" patternUnits="userSpaceOnUse">
+      <path d="M0 0h60v18l-30 16L0 18z" fill="#f5b400"/><circle cx="30" cy="12" r="5" fill="#c8102e"/></pattern></defs>
+    <rect width="1200" height="34" fill="url(#pp)"/>
+  </svg>
+  <div class="wrap in">
+    <div class="bar"><span class="brand"><span class="dot">AJA</span>Pupusas y Tacos</span><button class="lang" onclick="toggleLang()"><span class="es">English</span><span class="en">Español</span></button></div>
+    <h1>Pupusas<span>y tacos</span></h1>
+    <p class="lead"><span class="es">Hechas a mano, al momento, con tortillas de maíz que palmeamos aquí mismo. Comida salvadoreña y mexicana en Harry Hines.</span><span class="en">Handmade to order, with corn tortillas we pat out right here. Salvadoran and Mexican food on Harry Hines.</span></p>
+    <a class="cta" href="tel:+14696842551">📞 (469) 684-2551<small><span class="es">Llama para ordenar · para llevar, curbside o a domicilio</span><span class="en">Call to order · takeout, curbside or delivery</span></small></a>
+    <div class="sub">★ 4.9 <span class="es">en Google · 41 reseñas</span><span class="en">on Google · 41 reviews</span> · 10941 Harry Hines Blvd #100</div>
+    <img class="foto" src="img/hero.jpg" alt="" onerror="this.remove()">
   </div>
 </header>
 
-<section>
-  <h2><span class="es">Esta semana</span><span class="en">This week</span></h2>
-  <p class="sub"><span class="es">Platillos que solo salen ciertos días — con arroz y tortillas hechas a mano.</span><span class="en">Dishes that only come out on certain days — with rice and handmade tortillas.</span></p>
+<div class="hoy" id="hoy" hidden><div class="wrap in"><span class="tag" id="hoy-tag">Hoy</span><b id="hoy-nombre"></b><span id="hoy-desc" style="font-weight:700;opacity:.85"></span><span class="pr" id="hoy-precio"></span></div></div>
+
+<section class="wrap" id="pupusas">
+  <h2>Las pupusas</h2>
+  <p><span class="es">Masa de maíz, rellenas y doradas en el comal. Con curtido y salsa.</span><span class="en">Corn masa, stuffed and browned on the comal. With curtido and salsa.</span></p>
+  <div class="pupusas">
+    <div class="pup">Con todo<small>chicharrón, queso y frijol</small></div>
+    <div class="pup">Revueltas<small>chicharrón y queso</small></div>
+    <div class="pup">Queso con jalapeño</div>
+    <div class="pup">Queso con loroco</div>
+    <div class="pup">Queso con frijol</div>
+  </div>
+  <div class="pricebar"><span>1 pupusa · $3.50</span><span>3 pupusas · $10.00</span><span class="combo"><span class="es">3 pupusas + agua fresca 16 oz · $12.95</span><span class="en">3 pupusas + 16 oz agua fresca · $12.95</span></span></div>
+</section>
+
+<section class="wrap">
+  <h2><span class="es">Los días de la semana</span><span class="en">Days of the week</span></h2>
+  <p><span class="es">Platillos que solo salen ciertos días. Con arroz y tortillas hechas a mano.</span><span class="en">Only on certain days. With rice and handmade tortillas.</span></p>
   <div class="week">
-    <div class="day"><b><span class="es">Martes</span><span class="en">Tuesday</span></b><div class="n">Sopa de pollo</div><div class="p"><span class="es">con arroz y tortillas hechas a mano</span><span class="en">chicken soup, rice, handmade tortillas</span></div><span class="price">$11.95</span></div>
-    <div class="day"><b><span class="es">Miércoles</span><span class="en">Wednesday</span></b><div class="n">Caldo de res</div><div class="p"><span class="es">con arroz y tortillas hechas a mano</span><span class="en">beef soup, rice, handmade tortillas</span></div><span class="price">$11.95</span></div>
-    <div class="day"><b><span class="es">Viernes y sábado</span><span class="en">Friday &amp; Saturday</span></b><div class="n">Panes con gallina</div><div class="p"><span class="es">auténtico sabor salvadoreño</span><span class="en">the real Salvadoran sandwich</span></div><span class="price">$13.00</span></div>
-    <div class="day"><b><span class="es">Todos los días</span><span class="en">Every day</span></b><div class="n">Aguachiles verdes</div><div class="p"><span class="es">especial de la casa</span><span class="en">house special</span></div><span class="price">$13.75</span></div>
+    <div class="dia" data-day="2"><div class="d"><span class="es">Martes</span><span class="en">Tuesday</span></div><div class="n">Sopa de pollo</div><div class="p"><span class="es">con arroz y tortillas hechas a mano</span><span class="en">chicken soup, rice, handmade tortillas</span></div><div class="pr">$11.95</div></div>
+    <div class="dia" data-day="3"><div class="d"><span class="es">Miércoles</span><span class="en">Wednesday</span></div><div class="n">Caldo de res</div><div class="p"><span class="es">con arroz y tortillas hechas a mano</span><span class="en">beef soup, rice, handmade tortillas</span></div><div class="pr">$11.95</div></div>
+    <div class="dia" data-day="5,6"><div class="d"><span class="es">Viernes y sábado</span><span class="en">Friday &amp; Saturday</span></div><div class="n">Panes con gallina</div><div class="p"><span class="es">auténtico sabor salvadoreño</span><span class="en">the real Salvadoran sandwich</span></div><div class="pr">$13.00</div></div>
+    <div class="dia"><div class="d"><span class="es">Todos los días</span><span class="en">Every day</span></div><div class="n">Aguachiles verdes</div><div class="p"><span class="es">el especial de la casa</span><span class="en">the house special</span></div><div class="pr">$13.75</div></div>
   </div>
 </section>
 
-<section id="menu">
+<section class="wrap" id="menu">
   <h2><span class="es">El menú</span><span class="en">The menu</span></h2>
-  <p class="sub"><span class="es">Precios del menú de la casa. Llama para ordenar para llevar.</span><span class="en">Prices from the house menu. Call ahead for takeout.</span></p>
-  <div class="tabs"><a href="#pupusas">Pupusas</a><a href="#antojitos">Antojitos</a><a href="#platillos">Platillos</a><a href="#americano">Americano</a><a href="#postres">Postres</a><a href="#bebidas">Bebidas</a></div>
-
-  <div class="menu-sec" id="pupusas"><h3>Pupusas</h3><p class="note"><span class="es">Hechas a mano al momento. 1 pupusa $3.50 · 3 pupusas $10.00</span><span class="en">Handmade to order. 1 pupusa $3.50 · 3 pupusas $10.00</span></p>
-    <div class="items">
-      <div class="item"><div><div class="nm">Con todo</div><div class="ds">chicharrón, queso y frijol</div></div><div class="pr">$10.00<small>3 pupusas</small></div></div>
-      <div class="item"><div><div class="nm">Revueltas</div><div class="ds">chicharrón y queso</div></div><div class="pr">$10.00<small>3 pupusas</small></div></div>
-      <div class="item"><div><div class="nm">Queso con jalapeño</div></div><div class="pr">$10.00<small>3 pupusas</small></div></div>
-      <div class="item"><div><div class="nm">Queso con loroco</div></div><div class="pr">$10.00<small>3 pupusas</small></div></div>
-      <div class="item"><div><div class="nm">Queso con frijol</div></div><div class="pr">$10.00<small>3 pupusas</small></div></div>
+  <p><span class="es">Fajita, pollo o pastor en casi todo. Pregunta por el guiso de puerco rojo.</span><span class="en">Fajita, chicken or al pastor on almost everything. Ask about the red pork guiso.</span></p>
+  <div class="board"><div class="cols">
+    <div>
+      <h3>Antojitos</h3>
+      <div class="row"><span class="nm">Tacos</span><span class="ds">pastor · fajita · pollo</span><span class="dots"></span><span class="pr">$2.95<small>c/u</small></span></div>
+      <div class="row"><span class="nm">Gorditas</span><span class="ds">2 pzas · 1 por $5</span><span class="dots"></span><span class="pr">$9.00</span></div>
+      <div class="row"><span class="nm">Sopes</span><span class="ds">2 pzas · 1 por $5</span><span class="dots"></span><span class="pr">$9.00</span></div>
+      <div class="row"><span class="nm">Huarache</span><span class="dots"></span><span class="pr">$9.95</span></div>
+      <div class="row"><span class="nm">Quesadillas</span><span class="dots"></span><span class="pr">$10.00</span></div>
+      <div class="row"><span class="nm">Quesabirrias</span><span class="ds">orden de 3</span><span class="dots"></span><span class="pr">$11.50</span></div>
+      <div class="row"><span class="nm">Flautas en vaso</span><span class="ds">2 · $6.50</span><span class="dots"></span><span class="pr">$9.00<small>3</small></span></div>
+      <div class="row"><span class="nm">Tortas</span><span class="ds">con papas $13.95</span><span class="dots"></span><span class="pr">$11.50</span></div>
+      <h3>Platillos</h3>
+      <div class="row"><span class="nm">Tortitas de carne</span><span class="ds">arroz, ensalada, tortillas</span><span class="dots"></span><span class="pr">$12.00</span></div>
+      <div class="row"><span class="nm">Aguachiles verdes</span><span class="dots"></span><span class="pr">$13.75</span></div>
+      <div class="row"><span class="nm">Panes con gallina</span><span class="ds">vie · sáb</span><span class="dots"></span><span class="pr">$13.00</span></div>
+      <div class="row"><span class="nm">Sopa de pollo</span><span class="ds">martes</span><span class="dots"></span><span class="pr">$11.95</span></div>
+      <div class="row"><span class="nm">Caldo de res</span><span class="ds">miércoles</span><span class="dots"></span><span class="pr">$11.95</span></div>
     </div>
-    <div class="combo"><div><div class="disp"><span class="es">Especial: 3 pupusas + agua fresca 16 oz</span><span class="en">Special: 3 pupusas + 16 oz agua fresca</span></div><div style="opacity:.9;font-size:14px;margin-top:4px"><span class="es">Limonada, jamaica o tamarindo · horchata +$1</span><span class="en">Limonada, jamaica or tamarindo · horchata +$1</span></div></div><div class="pr">$12.95</div></div>
-  </div>
-
-  <div class="menu-sec" id="antojitos"><h3>Antojitos</h3><p class="note"><span class="es">Fajita, pollo o pastor — tú eliges.</span><span class="en">Your choice of fajita, chicken or al pastor.</span></p>
-    <div class="items">
-      <div class="item"><div><div class="nm">Tacos</div><div class="ds">pastor, fajita &amp; pollo</div></div><div class="pr">$2.95<small>c/u · each</small></div></div>
-      <div class="item"><div><div class="nm">Gorditas</div><div class="ds">fajita, pollo, pastor o guiso de puerco rojo</div></div><div class="pr">$9.00<small>2 · 1 por $5</small></div></div>
-      <div class="item"><div><div class="nm">Sopes</div><div class="ds">fajita, pastor o pollo</div></div><div class="pr">$9.00<small>2 · 1 por $5</small></div></div>
-      <div class="item"><div><div class="nm">Huarache</div><div class="ds">fajita, pollo o pastor</div></div><div class="pr">$9.95</div></div>
-      <div class="item"><div><div class="nm">Quesadillas</div><div class="ds">fajita, pastor o pollo</div></div><div class="pr">$10.00</div></div>
-      <div class="item"><div><div class="nm">Quesabirrias</div><div class="ds">orden de 3</div></div><div class="pr">$11.50</div></div>
-      <div class="item"><div><div class="nm">Flautas de pollo en vaso</div><div class="ds">2 flautas $6.50 · 3 flautas $9.00</div></div><div class="pr">$9.00</div></div>
-      <div class="item"><div><div class="nm">Tortas</div><div class="ds">con papas francesas $13.95</div></div><div class="pr">$11.50</div></div>
+    <div>
+      <h3>Americano</h3>
+      <div class="row"><span class="nm">Hamburger</span><span class="ds">with fries</span><span class="dots"></span><span class="pr">$9.99</span></div>
+      <div class="row"><span class="nm">Hot dog</span><span class="ds">with fries</span><span class="dots"></span><span class="pr">$8.99</span></div>
+      <div class="row"><span class="nm">French fries</span><span class="dots"></span><span class="pr">$3.95</span></div>
+      <div class="row"><span class="nm">Nachos</span><span class="ds">queso y jalapeños</span><span class="dots"></span><span class="pr">$5.00</span></div>
+      <h3>Postres</h3>
+      <div class="row"><span class="nm">Churros de cajeta</span><span class="ds">2 · $5.50 · 4 · $10</span><span class="dots"></span><span class="pr">$2.95</span></div>
+      <h3>Aguas frescas</h3>
+      <div class="row"><span class="nm">Horchata</span><span class="ds">20 oz · 32 oz $6</span><span class="dots"></span><span class="pr">$5.00</span></div>
+      <div class="row"><span class="nm">Jamaica</span><span class="ds">20 oz · 32 oz $5</span><span class="dots"></span><span class="pr">$4.50</span></div>
+      <div class="row"><span class="nm">Limonada</span><span class="ds">20 oz · 32 oz $5</span><span class="dots"></span><span class="pr">$4.50</span></div>
+      <div class="row"><span class="nm">Tamarindo</span><span class="ds">20 oz · 32 oz $5</span><span class="dots"></span><span class="pr">$4.50</span></div>
     </div>
-  </div>
+  </div></div>
+</section>
 
-  <div class="menu-sec" id="platillos"><h3>Platillos</h3>
-    <div class="items">
-      <div class="item"><div><div class="nm">Tortitas de carne (albóndigas)</div><div class="ds">con arroz, ensalada y tortillas hechas a mano</div></div><div class="pr">$12.00</div></div>
-      <div class="item"><div><div class="nm">Aguachiles verdes</div><div class="ds"><span class="es">especial de la casa</span><span class="en">house special</span></div></div><div class="pr">$13.75</div></div>
-      <div class="item"><div><div class="nm">Panes con gallina</div><div class="ds"><span class="es">viernes y sábado</span><span class="en">Friday &amp; Saturday</span></div></div><div class="pr">$13.00</div></div>
-      <div class="item"><div><div class="nm">Sopa de pollo · Caldo de res</div><div class="ds"><span class="es">martes · miércoles</span><span class="en">Tuesday · Wednesday</span></div></div><div class="pr">$11.95</div></div>
+<section class="wrap">
+  <h2>Aguas frescas</h2>
+  <p><span class="es">Del día. 20 oz o 32 oz.</span><span class="en">Made today. 20 oz or 32 oz.</span></p>
+  <div class="aguas">
+    <div class="agua horchata"><div class="n">Horchata</div><div class="p">$5.00 · $6.00</div></div>
+    <div class="agua jamaica"><div class="n">Jamaica</div><div class="p">$4.50 · $5.00</div></div>
+    <div class="agua limonada"><div class="n">Limonada</div><div class="p">$4.50 · $5.00</div></div>
+    <div class="agua tamarindo"><div class="n">Tamarindo</div><div class="p">$4.50 · $5.00</div></div>
+  </div>
+</section>
+
+<section class="wrap">
+  <h2><span class="es">Ven a vernos</span><span class="en">Come see us</span></h2>
+  <div class="visit">
+    <div class="card"><h3><span class="es">Dónde</span><span class="en">Where</span></h3>
+      <div class="big">10941 Harry Hines Blvd<br>Suite 100 · Dallas, TX 75220</div>
+      <p><span class="es">Abierto hasta las 7 PM. Para llevar, curbside y a domicilio.</span><span class="en">Open until 7 PM. Takeout, curbside and delivery.</span></p>
+      <p><a href="https://www.google.com/maps/search/?api=1&query=AJA%20Pupusas%20y%20Tacos%2010941%20Harry%20Hines%20Blvd%20Dallas" style="color:var(--rojo);font-weight:900"><span class="es">Cómo llegar →</span><span class="en">Directions →</span></a></p>
+      <div class="gal"><img src="img/owner.jpg" alt="" onerror="this.remove()"><img src="img/menu-board.jpg" alt="" onerror="this.remove()"><img src="img/food-1.jpg" alt="" onerror="this.remove()"></div>
     </div>
-  </div>
-
-  <div class="menu-sec" id="americano"><h3>Americano</h3>
-    <div class="items">
-      <div class="item"><div><div class="nm">Hamburger with french fries</div></div><div class="pr">$9.99</div></div>
-      <div class="item"><div><div class="nm">Hot dog with fries</div></div><div class="pr">$8.99</div></div>
-      <div class="item"><div><div class="nm">French fries</div></div><div class="pr">$3.95</div></div>
-      <div class="item"><div><div class="nm">Nachos con queso y jalapeños</div></div><div class="pr">$5.00</div></div>
-    </div>
-  </div>
-
-  <div class="menu-sec" id="postres"><h3>Postres</h3>
-    <div class="items">
-      <div class="item"><div><div class="nm">Churros de cajeta</div><div class="ds">1 · $2.95 &nbsp; 2 · $5.50 &nbsp; 4 · $10.00</div></div><div class="pr">$2.95</div></div>
-    </div>
-  </div>
-
-  <div class="menu-sec" id="bebidas"><h3>Bebidas · Aguas frescas</h3>
-    <div class="items">
-      <div class="item"><div><div class="nm">Horchata</div><div class="ds">20 oz $5.00 · 32 oz $6.00</div></div><div class="pr">$5.00</div></div>
-      <div class="item"><div><div class="nm">Jamaica · Limonada · Tamarindo</div><div class="ds">20 oz $4.50 · 32 oz $5.00</div></div><div class="pr">$4.50</div></div>
+    <div class="card"><h3><span class="es">Llámanos</span><span class="en">Call us</span></h3>
+      <div class="big"><a href="tel:+14696842551">(469) 684-2551</a></div>
+      <p><span class="es">Ordena por teléfono y pasa a recoger.</span><span class="en">Order by phone and pick up.</span></p>
+      <p style="margin-top:14px"><a class="stars" href="https://www.google.com/maps/search/?api=1&query=AJA%20Pupusas%20y%20Tacos%2010941%20Harry%20Hines%20Blvd%20Dallas">★ 4.9 · <span class="es">41 reseñas en Google</span><span class="en">41 reviews on Google</span></a></p>
     </div>
   </div>
 </section>
 
-<section>
-  <h2><span class="es">La casa</span><span class="en">The place</span></h2>
-  <div class="gal">
-    <img class="wide" src="img/owner.jpg" alt="" onerror="this.remove()">
-    <img src="img/menu-board.jpg" alt="" onerror="this.remove()">
-    <img src="img/food-1.jpg" alt="" onerror="this.remove()">
-    <img src="img/food-2.jpg" alt="" onerror="this.remove()">
-    <img src="img/food-3.jpg" alt="" onerror="this.remove()">
-  </div>
-</section>
+<footer class="wrap">© 2026 AJA Pupusas y Tacos · 10941 Harry Hines Blvd Ste 100, Dallas, TX 75220 · (469) 684-2551<br><span class="es">Vista previa. Las fotos y textos finales son del dueño.</span><span class="en">Preview. Final photos and copy are the owner's.</span></footer>
 
-<section>
-  <div class="rate"><div class="big">4.9★</div><div><div style="font-weight:800"><span class="es">41 reseñas en Google — la mejor calificación de la cuadra</span><span class="en">41 Google reviews — best-rated on the block</span></div><a href="https://www.google.com/maps/search/?api=1&query=AJA%20Pupusas%20y%20Tacos%2010941%20Harry%20Hines%20Blvd%20Dallas" style="font-weight:800"><span class="es">Léelas →</span><span class="en">Read them →</span></a></div></div>
-</section>
+<div class="barra"><a class="call" href="tel:+14696842551">📞 <span class="es">Llamar</span><span class="en">Call</span></a><a href="sms:+14696842551">💬 <span class="es">Texto</span><span class="en">Text</span></a><a href="#menu">🌮 <span class="es">Menú</span><span class="en">Menu</span></a></div>
 
-<section>
-  <div class="info">
-    <div class="card"><h3><span class="es">Horario</span><span class="en">Hours</span></h3><ul><li><span class="es">Abierto hasta las 7 PM</span><span class="en">Open until 7 PM</span></li><li><span class="es">Sopa de pollo los martes · Caldo de res los miércoles</span><span class="en">Chicken soup Tuesdays · Beef soup Wednesdays</span></li><li><span class="es">Panes con gallina viernes y sábado</span><span class="en">Panes con gallina Fri &amp; Sat</span></li></ul></div>
-    <div class="card"><h3><span class="es">Dónde</span><span class="en">Find us</span></h3><p style="margin:0 0 8px">10941 Harry Hines Blvd, Suite 100<br>Dallas, TX 75220</p><a href="https://www.google.com/maps/search/?api=1&query=AJA%20Pupusas%20y%20Tacos%2010941%20Harry%20Hines%20Blvd%20Dallas" style="font-weight:800"><span class="es">Cómo llegar →</span><span class="en">Directions →</span></a><p style="margin:8px 0 0"><a href="tel:+14696842551" style="font-weight:800">(469) 684-2551</a></p></div>
-  </div>
-</section>
-
-<footer>© 2026 AJA Pupusas y Tacos · 10941 Harry Hines Blvd Ste 100, Dallas, TX 75220 · (469) 684-2551<br><small><span class="es">Vista previa. Fotos y textos se reemplazan con los del dueño.</span><span class="en">Preview. Photos and copy to be replaced with the owner's own.</span></small></footer>
-</div>
-<div class="bar"><a class="call" href="tel:+14696842551">📞 <span class="es">Llamar</span><span class="en">Call</span></a><a href="sms:+14696842551">💬 <span class="es">Texto</span><span class="en">Text</span></a><a href="https://www.google.com/maps/search/?api=1&query=AJA%20Pupusas%20y%20Tacos%2010941%20Harry%20Hines%20Blvd%20Dallas">📍 <span class="es">Ubicación</span><span class="en">Directions</span></a></div>
 <script>
-function toggleLang(){var b=document.body;b.dataset.lang=b.dataset.lang==='es'?'en':'es';document.documentElement.lang=b.dataset.lang}
+function toggleLang(){var b=document.body;b.dataset.lang=b.dataset.lang==='es'?'en':'es';document.documentElement.lang=b.dataset.lang;hoy()}
 if(!/^es/i.test(navigator.language||'')){document.body.dataset.lang='en';document.documentElement.lang='en'}
+function hoy(){
+  var d=new Date().getDay(), es=document.body.dataset.lang==='es';
+  var m={2:['Sopa de pollo','con arroz y tortillas hechas a mano','chicken soup, rice, handmade tortillas','$11.95'],3:['Caldo de res','con arroz y tortillas hechas a mano','beef soup, rice, handmade tortillas','$11.95'],5:['Panes con gallina','auténtico sabor salvadoreño','the real Salvadoran sandwich','$13.00'],6:['Panes con gallina','auténtico sabor salvadoreño','the real Salvadoran sandwich','$13.00']};
+  var h=document.getElementById('hoy'); if(!m[d]){h.hidden=true;return}
+  h.hidden=false; document.getElementById('hoy-tag').textContent=es?'Hoy':'Today';
+  document.getElementById('hoy-nombre').textContent=m[d][0]; document.getElementById('hoy-desc').textContent=es?m[d][1]:m[d][2]; document.getElementById('hoy-precio').textContent=m[d][3];
+  document.querySelectorAll('.dia[data-day]').forEach(function(x){ if(x.dataset.day.split(',').indexOf(String(d))>-1){x.style.borderColor='#c8102e';x.style.background='#fff7e0'} });
+}
+hoy();
 </script>
 </body></html>
