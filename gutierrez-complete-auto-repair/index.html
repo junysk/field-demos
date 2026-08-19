@@ -1,76 +1,149 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>Gutierrez Complete Auto Repair — Auto repair · Harry Hines / Walnut Hill</title>
-<meta name="robots" content="noindex"><meta name="color-scheme" content="light"><meta name="theme-color" content="#0f172a">
+<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Gutierrez Complete Auto Repair · Harry Hines, Dallas</title>
+<meta name="description" content="Taller mecánico en Harry Hines desde hace 34 años. Frenos, motor, aire acondicionado, suspensión. Te damos el precio antes de tocar el carro. (214) 350-1951">
+<meta name="robots" content="noindex"><meta name="color-scheme" content="light"><meta name="theme-color" content="#111111">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Manrope:wght@400;600;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Barlow:wght@500;700;800&display=swap" rel="stylesheet">
 <style>
-:root{--brand:#0f172a;--brand2:#f97316;--ink:#0f172a;--paper:#f8fafc;--muted:#6b7280;--line:#e5e7eb}
-*{box-sizing:border-box}html{background:var(--paper);scroll-behavior:smooth}
-body{margin:0;font:16px/1.55 'Manrope',system-ui,-apple-system,sans-serif;color:var(--ink);background:var(--paper);padding-bottom:84px}
-h1,h2,.display{font-family:'Oswald',Georgia,serif;letter-spacing:-.01em;line-height:1.05;margin:0}
-a{color:inherit}
-.preview{background:#111;color:#fbbf24;font-size:12px;text-align:center;padding:6px 10px;letter-spacing:.02em}
-.wrap{max-width:860px;margin:0 auto;padding:0 20px}
-nav{display:flex;align-items:center;justify-content:space-between;padding:14px 0}
-nav .logo{font-family:'Oswald',serif;font-weight:700;font-size:20px}
-nav .lang{border:1px solid var(--line);background:#fff;border-radius:999px;padding:6px 12px;font:600 13px 'Manrope',sans-serif;cursor:pointer}
-.hero{position:relative;background:var(--brand);color:#fff;border-radius:22px;padding:44px 26px 34px;overflow:hidden;background-size:cover;background-position:center}
-.hero:before{content:"";position:absolute;inset:auto -20% -60% auto;width:70%;aspect-ratio:1;border-radius:50%;background:radial-gradient(circle at 30% 30%,var(--brand2),transparent 60%);opacity:.55;pointer-events:none}
-.hero .kicker{font-size:13px;letter-spacing:.14em;text-transform:uppercase;opacity:.85;margin-bottom:10px}
-.hero h1{font-size:clamp(34px,7vw,58px);max-width:14ch}
-.hero .tag{font-size:clamp(17px,2.6vw,21px);margin:12px 0 18px;opacity:.95;max-width:38ch}
-.chips{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:22px}
-.chip{background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.28);backdrop-filter:blur(4px);border-radius:999px;padding:6px 12px;font-size:13px;font-weight:600}
-.btns{display:flex;flex-wrap:wrap;gap:10px;position:relative}
-.btn{display:inline-flex;align-items:center;gap:8px;padding:14px 20px;border-radius:14px;font-weight:800;text-decoration:none;font-size:16px}
-.btn.primary{background:var(--brand2);color:#111}
-.btn.ghost{background:rgba(255,255,255,.12);color:#fff;border:1px solid rgba(255,255,255,.35)}
-section{padding:34px 0 6px}
-h2{font-size:clamp(24px,4vw,32px);margin-bottom:14px}
-.svcs{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:10px}
-.svc{background:#fff;border:1px solid var(--line);border-radius:14px;padding:16px;font-weight:600;display:flex;gap:12px;align-items:baseline}
-.svc .n{font-family:'Oswald',serif;color:var(--brand2);font-weight:700;font-size:20px;filter:saturate(1.2) brightness(.85)}
-.why{display:grid;grid-template-columns:1fr 1fr;gap:18px;align-items:start}
-.why ul{margin:0;padding:0;list-style:none;display:grid;gap:10px}
-.why li{padding-left:26px;position:relative;font-weight:600}
-.why li:before{content:"";position:absolute;left:0;top:.45em;width:14px;height:14px;border-radius:50%;background:var(--brand2)}
-.rate{background:var(--brand);color:#fff;border-radius:18px;padding:22px 24px;display:flex;gap:16px;align-items:center;flex-wrap:wrap}
-.rate .big{font-family:'Oswald',serif;font-size:44px;font-weight:700;line-height:1}
-.rate a{color:#fff;font-weight:700}
-.info{display:grid;grid-template-columns:1fr 1fr;gap:12px}
-.card{background:#fff;border:1px solid var(--line);border-radius:16px;padding:18px}
-.card h3{margin:0 0 8px;font-size:14px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
-.card ul{margin:0;padding-left:18px}
-footer{padding:26px 0 10px;color:var(--muted);font-size:13px}
-.bar{position:fixed;left:0;right:0;bottom:0;background:#fff;border-top:1px solid var(--line);display:flex;gap:8px;padding:10px 12px calc(10px + env(safe-area-inset-bottom));z-index:9}
-.bar a{flex:1;text-align:center;padding:12px 8px;border-radius:12px;font-weight:800;text-decoration:none;font-size:15px;border:1px solid var(--line);color:var(--ink);background:#fff}
-.bar a.call{background:var(--brand);color:#fff;border-color:var(--brand)}
-@media(max-width:640px){.why,.info{grid-template-columns:1fr}.hero{border-radius:18px;padding:36px 20px 28px}}
+:root{--asfalto:#141414;--gris:#2a2a2a;--naranja:#ff6a13;--amarillo:#ffc400;--hueso:#f3efe6;--tinta:#151515;--muted:#6a6560;--linea:#e2ddd2}
+*{box-sizing:border-box}html{background:var(--hueso)}
+body{margin:0;font:17px/1.5 Barlow,system-ui,sans-serif;color:var(--tinta);background:var(--hueso);padding-bottom:84px;-webkit-font-smoothing:antialiased}
+h1,h2,h3,.disp{font-family:Anton,Impact,sans-serif;font-weight:400;letter-spacing:.01em;line-height:.92;margin:0;text-transform:uppercase}
+a{color:inherit;text-decoration:none}
+.top{background:var(--amarillo);color:#111;font:800 12px Barlow;text-align:center;padding:6px 10px;text-transform:uppercase;letter-spacing:.06em}
+.hazard{height:14px;background:repeating-linear-gradient(135deg,var(--amarillo) 0 18px,var(--asfalto) 18px 36px)}
+.wrap{max-width:980px;margin:0 auto;padding:0 20px}
+header.hero{background:var(--asfalto);color:#fff;position:relative;overflow:hidden}
+.hero .in{position:relative;padding:22px 20px 34px}
+.hero .bar{display:flex;justify-content:space-between;align-items:center;margin-bottom:34px}
+.hero .brand{font-family:Anton;font-size:18px;letter-spacing:.06em;text-transform:uppercase;display:flex;align-items:center;gap:10px}
+.hero .brand i{display:inline-block;width:14px;height:14px;background:var(--naranja);transform:rotate(45deg)}
+.lang{background:transparent;color:#fff;border:2px solid rgba(255,255,255,.4);border-radius:4px;padding:6px 12px;font:800 13px Barlow;cursor:pointer;text-transform:uppercase}
+.hero .years{font-family:Anton;font-size:clamp(90px,26vw,220px);line-height:.8;color:var(--naranja);letter-spacing:-.02em}
+.hero .years small{display:block;font-family:Anton;font-size:clamp(20px,4.6vw,34px);color:#fff;letter-spacing:.06em;margin-top:6px}
+.hero h1{font-size:clamp(34px,7vw,64px);margin-top:26px;max-width:14ch}
+.hero p.lead{font-size:clamp(18px,2.4vw,22px);font-weight:600;max-width:40ch;margin:16px 0 22px;color:#e9e4d9}
+.cta{display:inline-flex;align-items:center;gap:12px;background:var(--naranja);color:#111;padding:16px 22px;font:800 20px Barlow;white-space:nowrap;max-width:100%;border-radius:4px;box-shadow:0 6px 0 #b8480a}
+.cta small{display:block;font-weight:700;font-size:13px;white-space:normal;color:#3d1a05}
+.hero .meta{margin-top:16px;font-weight:700;color:#cfc8ba}
+.hero img.foto{position:absolute;right:20px;top:24px;width:min(38vw,380px);aspect-ratio:4/3;object-fit:cover;border:5px solid #fff;box-shadow:0 20px 40px rgba(0,0,0,.5);transform:rotate(2deg)}
+@media(max-width:820px){.hero img.foto{position:static;width:100%;transform:none;margin-top:18px}}
+section{padding:42px 0 6px}
+h2{font-size:clamp(34px,6vw,58px);color:var(--tinta)}
+h2 span.o{color:var(--naranja)}
+h2 + p{margin:8px 0 22px;font-weight:600;color:var(--muted);max-width:60ch}
+/* promise */
+.promesa{background:#fff;border-left:10px solid var(--naranja);padding:22px 24px;font-size:clamp(20px,3vw,26px);font-weight:800;line-height:1.25;box-shadow:0 1px 0 var(--linea)}
+.promesa small{display:block;font-weight:600;font-size:15px;color:var(--muted);margin-top:8px}
+/* services */
+.svcs{columns:2;column-gap:20px;list-style:none;padding:0;margin:0}
+@media(max-width:600px){.svcs{columns:1}}
+.svcs li{break-inside:avoid;background:#fff;border:2px solid var(--tinta);margin:0 0 10px;padding:14px 16px;font-weight:800;font-size:18px;display:flex;gap:12px;align-items:baseline;box-shadow:4px 4px 0 var(--tinta)}
+.svcs li b{font-family:Anton;color:var(--naranja);font-size:20px;min-width:34px}
+.svcs li small{display:block;font-weight:600;font-size:14px;color:var(--muted)}
+/* steps */
+.pasos{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+@media(max-width:700px){.pasos{grid-template-columns:1fr}}
+.paso{background:var(--asfalto);color:#fff;padding:20px;border-radius:6px}
+.paso b{font-family:Anton;font-size:44px;color:var(--amarillo);line-height:1;display:block;margin-bottom:8px}
+.paso .t{font-family:Anton;font-size:22px;letter-spacing:.02em}
+.paso p{margin:6px 0 0;color:#d6d0c4;font-weight:600;font-size:15px}
+/* reviews */
+.rev{display:grid;grid-template-columns:auto 1fr;gap:20px;align-items:center;background:#fff;border:2px solid var(--linea);padding:22px}
+@media(max-width:600px){.rev{grid-template-columns:1fr}}
+.rev .n{font-family:Anton;font-size:64px;line-height:1;color:var(--tinta)}
+.rev .n small{display:block;font:800 14px Barlow;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;margin-top:4px}
+.rev q{display:block;font-weight:700;font-size:18px;quotes:"“" "”"}
+.rev q:before{content:open-quote;color:var(--naranja);font-family:Anton;font-size:30px;vertical-align:-8px;margin-right:4px}
+.rev a{display:inline-block;margin-top:8px;font-weight:800;color:var(--naranja);text-transform:uppercase;letter-spacing:.04em;font-size:14px}
+/* visit */
+.visita{display:grid;grid-template-columns:1.2fr 1fr;gap:12px}
+@media(max-width:700px){.visita{grid-template-columns:1fr}}
+.caja{background:#fff;border:2px solid var(--linea);padding:22px}
+.caja h3{font-size:14px;letter-spacing:.14em;color:var(--muted);margin-bottom:8px}
+.caja .big{font-family:Anton;font-size:clamp(26px,4vw,34px);line-height:1.05;text-transform:none;letter-spacing:0}
+.caja p{margin:8px 0 0;font-weight:600}
+.caja a.link{color:var(--naranja);font-weight:800;text-transform:uppercase;letter-spacing:.04em;font-size:14px}
+.gal{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:14px}
+.gal img{width:100%;aspect-ratio:1;object-fit:cover}
+.badge{display:inline-block;border:3px solid var(--tinta);padding:6px 12px;font:800 13px Barlow;text-transform:uppercase;letter-spacing:.08em;transform:rotate(-2deg);margin-top:14px}
+footer{padding:28px 0 6px;color:var(--muted);font-size:13px;font-weight:600}
+.barra{position:fixed;left:0;right:0;bottom:0;background:#fff;border-top:2px solid var(--linea);display:flex;gap:8px;padding:10px 12px calc(10px + env(safe-area-inset-bottom));z-index:9}
+.barra a{flex:1;text-align:center;padding:13px 8px;border-radius:4px;font:800 15px Barlow;border:2px solid var(--tinta);color:var(--tinta);background:#fff;text-transform:uppercase}
+.barra a.call{background:var(--naranja);border-color:var(--naranja);color:#111}
 [data-lang="es"] .en{display:none}[data-lang="en"] .es{display:none}
-</style></head><body data-lang="en">
-<div class="preview">Preview built for Gutierrez Complete Auto Repair — not live yet · pregunte y lo activamos</div>
-<div class="wrap">
-<nav><span class="logo">Gutierrez Complete Auto Repair</span><button class="lang" onclick="toggleLang()"><span class="en">Español</span><span class="es">English</span></button></nav>
-<header class="hero" >
-  <div class="kicker">Auto repair · Harry Hines / Walnut Hill</div>
-  <h1>Gutierrez Complete Auto Repair</h1>
-  <p class="tag"><span class="en">Thirty-four years fixing cars on Harry Hines.</span><span class="es">Treinta y cuatro años arreglando carros en Harry Hines.</span></p>
-  <div class="chips"><span class="chip">★ 4.3 · 62 Google reviews</span><span class="chip">34+ years</span><span class="chip">Family-owned</span><span class="chip">Se habla español</span></div>
-  <div class="btns"><a class="btn primary" href="tel:2143501951">📞 <span class="en">Call for an estimate</span><span class="es">Llama para un presupuesto</span></a><a class="btn ghost" href="sms:2143501951">💬 <span class="en">Text us</span><span class="es">Envíanos un texto</span></a></div>
-</header>
+</style></head><body data-lang="es">
+<div class="top"><span class="es">Vista previa para Gutierrez Complete Auto Repair — todavía no está publicada</span><span class="en">Preview for Gutierrez Complete Auto Repair — not live yet</span></div>
+<div class="hazard"></div>
 
-<section><h2><span class="en">What we do</span><span class="es">Servicios</span></h2><div class="svcs"><div class="svc"><span class="n">01</span><span data-en="Brakes" data-es="Frenos">Brakes</span></div><div class="svc"><span class="n">02</span><span data-en="Check-engine diagnostics" data-es="Diagnóstico check-engine">Check-engine diagnostics</span></div><div class="svc"><span class="n">03</span><span data-en="A/C service" data-es="Aire acondicionado">A/C service</span></div><div class="svc"><span class="n">04</span><span data-en="Oil change" data-es="Cambio de aceite">Oil change</span></div><div class="svc"><span class="n">05</span><span data-en="Suspension" data-es="Suspensión">Suspension</span></div></div></section>
+<header class="hero"><div class="wrap in">
+  <div class="bar"><span class="brand"><i></i>Gutierrez Complete Auto Repair</span><button class="lang" onclick="toggleLang()"><span class="es">English</span><span class="en">Español</span></button></div>
+  <div class="years">34<small><span class="es">años en Harry Hines</span><span class="en">years on Harry Hines</span></small></div>
+  <h1><span class="es">Taller mecánico completo. Sin rodeos.</span><span class="en">Complete auto repair. No runaround.</span></h1>
+  <p class="lead"><span class="es">Rogelio Gutierrez lleva 34 años arreglando los carros de este barrio. Te decimos qué tiene, qué no tiene, y cuánto cuesta — antes de tocarlo.</span><span class="en">Rogelio Gutierrez has fixed this neighborhood's cars for 34 years. We tell you what's wrong, what isn't, and what it costs — before we touch it.</span></p>
+  <a class="cta" href="tel:+12143501951">📞 (214) 350-1951<small><span class="es">Llama y trae el carro · Harry Hines #305</span><span class="en">Call and bring it in · Harry Hines #305</span></small></a>
+  <div class="meta">★ 4.3 · 62 <span class="es">reseñas en Google</span><span class="en">reviews on Google</span> · <span class="es">Se habla español</span><span class="en">Se habla español</span></div>
+  <img class="foto" src="img/hero.jpg" alt="" onerror="this.remove()">
+</div></header>
+<div class="hazard"></div>
 
-<section><div class="why"><div><h2><span class="en">Why neighbors choose us</span><span class="es">Por qué nos eligen</span></h2><ul><li data-en="Rogelio has run this shop for 34 years" data-es="Rogelio lleva 34 años en este taller">Rogelio has run this shop for 34 years</li><li data-en="You get the real problem, not an upsell" data-es="Le decimos el problema real, sin extras">You get the real problem, not an upsell</li><li data-en="Fair prices — ask anyone on the block" data-es="Precios justos — pregunte en el barrio">Fair prices — ask anyone on the block</li></ul></div>
-<div class="rate"><div class="big">4.3★</div><div><div><span class="en">62 reviews on Google</span><span class="es">62 reseñas en Google</span></div><a href="https://www.google.com/maps/search/?api=1&query=Gutierrez%20Complete%20Auto%20Repair%2010525%20Harry%20Hines%20Blvd%20%23305%2C%20Dallas%2C%20TX%2075220"><span class="en">Read them →</span><span class="es">Léelas →</span></a></div></div></div></section>
+<section class="wrap">
+  <div class="promesa"><span class="es">Primero el diagnóstico. Luego el precio. Y no hacemos nada que no hayas aprobado.</span><span class="en">Diagnosis first. Then the price. And we don't do anything you haven't approved.</span><small><span class="es">Así trabajamos desde 1991. Por eso la gente vuelve.</span><span class="en">That's how we've worked since 1991. It's why people come back.</span></small></div>
+</section>
 
-<section><div class="info">
-  <div class="card"><h3><span class="en">Hours</span><span class="es">Horario</span></h3><ul><li>Closes 6:01 PM (as listed)</li></ul></div>
-  <div class="card"><h3><span class="en">Find us</span><span class="es">Ubicación</span></h3><p style="margin:0 0 8px">10525 Harry Hines Blvd #305, Dallas, TX 75220</p><a href="https://www.google.com/maps/search/?api=1&query=Gutierrez%20Complete%20Auto%20Repair%2010525%20Harry%20Hines%20Blvd%20%23305%2C%20Dallas%2C%20TX%2075220" style="font-weight:700"><span class="en">Directions →</span><span class="es">Cómo llegar →</span></a><p style="margin:8px 0 0"><a href="tel:2143501951" style="font-weight:700">(214) 350-1951</a></p></div>
-</div></section>
+<section class="wrap">
+  <h2><span class="es">Qué <span class="o">arreglamos</span></span><span class="en">What we <span class="o">fix</span></span></h2>
+  <p><span class="es">Todo lo mecánico, todas las marcas. Si no lo hacemos aquí, te decimos a dónde llevarlo.</span><span class="en">All things mechanical, all makes. If we don't do it here, we'll tell you where to take it.</span></p>
+  <ul class="svcs">
+    <li><b>01</b><span><span class="es">Frenos</span><span class="en">Brakes</span><small><span class="es">balatas, rotores, ruido al frenar</span><span class="en">pads, rotors, that grinding noise</span></small></span></li>
+    <li><b>02</b><span><span class="es">Motor y check engine</span><span class="en">Engine &amp; check-engine light</span><small><span class="es">diagnóstico con escáner</span><span class="en">scanner diagnostics</span></small></span></li>
+    <li><b>03</b><span><span class="es">Aire acondicionado</span><span class="en">A/C</span><small><span class="es">que enfríe antes del verano</span><span class="en">cold before summer hits</span></small></span></li>
+    <li><b>04</b><span><span class="es">Suspensión y dirección</span><span class="en">Suspension &amp; steering</span><small><span class="es">amortiguadores, rótulas, alineación</span><span class="en">shocks, ball joints, alignment</span></small></span></li>
+    <li><b>05</b><span><span class="es">Afinación y cambio de aceite</span><span class="en">Tune-ups &amp; oil changes</span></span></li>
+    <li><b>06</b><span><span class="es">Eléctrico</span><span class="en">Electrical</span><small><span class="es">batería, alternador, marcha</span><span class="en">battery, alternator, starter</span></small></span></li>
+    <li><b>07</b><span><span class="es">Enfriamiento</span><span class="en">Cooling system</span><small><span class="es">radiador, bomba de agua, mangueras</span><span class="en">radiator, water pump, hoses</span></small></span></li>
+    <li><b>08</b><span><span class="es">Revisión antes de comprar</span><span class="en">Pre-purchase inspection</span><small><span class="es">antes de que te lo vendan</span><span class="en">before you buy it</span></small></span></li>
+  </ul>
+</section>
 
-<footer>© 2026 Gutierrez Complete Auto Repair · 10525 Harry Hines Blvd #305, Dallas, TX 75220<br><small>Preview. Built from public listing details; photos and copy to be replaced with the owner's own.</small></footer>
-</div>
-<div class="bar"><a class="call" href="tel:2143501951">📞 <span class="en">Call</span><span class="es">Llamar</span></a><a href="sms:2143501951">💬 <span class="en">Text</span><span class="es">Texto</span></a><a href="https://www.google.com/maps/search/?api=1&query=Gutierrez%20Complete%20Auto%20Repair%2010525%20Harry%20Hines%20Blvd%20%23305%2C%20Dallas%2C%20TX%2075220">📍 <span class="en">Directions</span><span class="es">Ubicación</span></a></div>
-<script>function toggleLang(){var b=document.body;b.dataset.lang=b.dataset.lang==='en'?'es':'en';document.querySelectorAll('[data-en]').forEach(function(e){e.textContent=b.dataset.lang==='es'?e.dataset.es:e.dataset.en})}</script>
+<section class="wrap">
+  <h2><span class="es">Cómo <span class="o">trabajamos</span></span><span class="en">How it <span class="o">works</span></span></h2>
+  <div class="pasos">
+    <div class="paso"><b>1</b><div class="t"><span class="es">Tráelo</span><span class="en">Bring it in</span></div><p><span class="es">Llama o llega. Cuéntanos qué hace el carro — el ruido, la luz, el jalón.</span><span class="en">Call or just come by. Tell us what the car's doing — the noise, the light, the pull.</span></p></div>
+    <div class="paso"><b>2</b><div class="t"><span class="es">Lo revisamos</span><span class="en">We check it</span></div><p><span class="es">Diagnóstico honesto. Te decimos qué es urgente y qué puede esperar.</span><span class="en">Honest diagnosis. We tell you what's urgent and what can wait.</span></p></div>
+    <div class="paso"><b>3</b><div class="t"><span class="es">Tú decides</span><span class="en">You decide</span></div><p><span class="es">Precio claro antes de empezar. Nada de sorpresas en la factura.</span><span class="en">Clear price before we start. No surprises on the bill.</span></p></div>
+  </div>
+</section>
+
+<section class="wrap">
+  <div class="rev">
+    <div class="n">4.3★<small>62 <span class="es">reseñas · Google</span><span class="en">reviews · Google</span></small></div>
+    <div><q><span class="es">Buen precio, buen servicio y buena gente. Son profesionales.</span><span class="en">Good price, good service and good guys. They are professional.</span></q><q><span class="es">Mi mecánico desde hace por lo menos 30 años.</span><span class="en">My mechanic for at least 30 years.</span></q><a href="https://www.google.com/maps/search/?api=1&query=Gutierrez%20Complete%20Auto%20Repair%2010525%20Harry%20Hines%20Blvd%20Dallas"><span class="es">Leer las reseñas →</span><span class="en">Read the reviews →</span></a></div>
+  </div>
+</section>
+
+<section class="wrap">
+  <h2><span class="es">Dónde <span class="o">estamos</span></span><span class="en">Where we <span class="o">are</span></span></h2>
+  <div class="visita">
+    <div class="caja"><h3><span class="es">Dirección</span><span class="en">Address</span></h3>
+      <div class="big">10525 Harry Hines Blvd #305<br>Dallas, TX 75220</div>
+      <p><span class="es">Abierto hasta las 6 PM. Llama antes si vienes tarde.</span><span class="en">Open until 6 PM. Call ahead if you're coming late.</span></p>
+      <p><a class="link" href="https://www.google.com/maps/search/?api=1&query=Gutierrez%20Complete%20Auto%20Repair%2010525%20Harry%20Hines%20Blvd%20Dallas"><span class="es">Cómo llegar →</span><span class="en">Directions →</span></a></p>
+      <div class="gal"><img src="img/bay.jpg" alt="" onerror="this.remove()"><img src="img/front.jpg" alt="" onerror="this.remove()"><img src="img/rogelio.jpg" alt="" onerror="this.remove()"></div>
+    </div>
+    <div class="caja"><h3><span class="es">Teléfono</span><span class="en">Phone</span></h3>
+      <div class="big"><a href="tel:+12143501951">(214) 350-1951</a></div>
+      <p><span class="es">Si estamos debajo de un carro y no contestamos, te regresamos la llamada.</span><span class="en">If we're under a car and miss you, we call you right back.</span></p>
+      <span class="badge"><span class="es">Se habla español · Since 1991</span><span class="en">Se habla español · Since 1991</span></span>
+    </div>
+  </div>
+</section>
+
+<footer class="wrap">© 2026 Gutierrez Complete Auto Repair · 10525 Harry Hines Blvd #305, Dallas, TX 75220 · (214) 350-1951<br><span class="es">Vista previa. Fotos y textos finales son del taller.</span><span class="en">Preview. Final photos and copy are the shop's.</span></footer>
+
+<div class="barra"><a class="call" href="tel:+12143501951">📞 <span class="es">Llamar</span><span class="en">Call</span></a><a href="sms:+12143501951">💬 <span class="es">Texto</span><span class="en">Text</span></a><a href="https://www.google.com/maps/search/?api=1&query=Gutierrez%20Complete%20Auto%20Repair%2010525%20Harry%20Hines%20Blvd%20Dallas">📍 <span class="es">Llegar</span><span class="en">Directions</span></a></div>
+<script>
+function toggleLang(){var b=document.body;b.dataset.lang=b.dataset.lang==='es'?'en':'es';document.documentElement.lang=b.dataset.lang}
+if(!/^es/i.test(navigator.language||'')){document.body.dataset.lang='en';document.documentElement.lang='en'}
+</script>
 </body></html>
